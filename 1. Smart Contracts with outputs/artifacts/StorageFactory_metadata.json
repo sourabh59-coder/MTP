@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "hospital",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "EHRStorageCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "createEHRStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hospitalStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract EHRStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sfGetAllEHRs",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "ipfsHash",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "verified",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct EHRStorage.EHRMetadata[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGetEHR",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ipfsHash",
+						"type": "string"
+					}
+				],
+				"name": "sfStoreEHR",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MTP/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MTP/SimpleStorage.sol": {
+			"keccak256": "0x9473d6df120e3ce6374d6c495fd0506685600aeba2fff77991b495418269e07a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb64580c5c3e0551256595f0d3c9a68c66439a573989e07b890f5fa744ce210d",
+				"dweb:/ipfs/QmSKX1jjutUzff9B88GAdmAvmdtGtFaUQxuvWEpsMX2xxK"
+			]
+		},
+		"MTP/StorageFactory.sol": {
+			"keccak256": "0x5933a159f6b8b5da305165e0db28d3d179adebfc7fc1f577f3b344499e6791ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2881c241609c235c0497d65c114129b05eb9a76238f966f44d8014e98b4936f",
+				"dweb:/ipfs/QmUdjoXj1pYaPLi5wmkvH7VkSG378HkBiqygXjEwox8Upu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,32 @@
+import "hashes/sha256/sha256Padded";
+
+def main(
+    u8[5] hospitalID,
+    u8[5] dataAuditorID,
+    u8[32] ehrData,      // Encrypted EHR data (e.g., X-ray, blood test reports)
+    u8[5] ehrTypeID,     // Identifier for the type of EHR (X-ray, MRI, etc.)
+    u32[8] expected_hash // Expected hash for verification
+) -> u8 {
+    u8[47] ehr = [
+        hospitalID[0], hospitalID[1], hospitalID[2], hospitalID[3], hospitalID[4],
+        dataAuditorID[0], dataAuditorID[1], dataAuditorID[2], dataAuditorID[3], dataAuditorID[4],
+        ehrData[0], ehrData[1], ehrData[2], ehrData[3],
+        ehrData[4], ehrData[5], ehrData[6], ehrData[7],
+        ehrData[8], ehrData[9], ehrData[10], ehrData[11],
+        ehrData[12], ehrData[13], ehrData[14], ehrData[15],
+        ehrData[16], ehrData[17], ehrData[18], ehrData[19],
+        ehrData[20], ehrData[21], ehrData[22], ehrData[23],
+        ehrData[24], ehrData[25], ehrData[26], ehrData[27],
+        ehrData[28], ehrData[29], ehrData[30], ehrData[31],
+        ehrTypeID[0], ehrTypeID[1], ehrTypeID[2], ehrTypeID[3], ehrTypeID[4]
+    ];
+
+    // Compute the SHA-256 hash of the input EHR
+    u32[8] hash = sha256Padded(ehr);
+
+    // Verify that the computed hash matches the expected hash
+    assert(hash == expected_hash);
+
+    // Return 1 if the hash matches (valid proof)
+    return 1;
+}

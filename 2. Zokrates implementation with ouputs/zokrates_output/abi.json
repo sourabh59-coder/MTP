@@ -1,0 +1,47 @@
+{
+  "inputs": [
+    {
+      "name": "patientID",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 5,
+        "type": "u8"
+      }
+    },
+    {
+      "name": "doctorID",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 5,
+        "type": "u8"
+      }
+    },
+    {
+      "name": "patientInfo",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 32,
+        "type": "u8"
+      }
+    },
+    {
+      "name": "drugID",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 5,
+        "type": "u8"
+      }
+    }
+  ],
+  "output": {
+    "type": "array",
+    "components": {
+      "size": 8,
+      "type": "u32"
+    }
+  }
+}
