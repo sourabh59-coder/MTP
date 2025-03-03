@@ -934,7 +934,7 @@ def main(
 ---
 
 
-# **Outputs**
+# **📌 Outputs**
 
 ## **Smart Contract Functions and Deployment Costs**
 1. **Role Management Smart Contract Functions - I**  
