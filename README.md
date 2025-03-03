@@ -907,6 +907,8 @@ def main(
 
 ---
 
+#**Outputs**
+
 ## **🔍 Explanation of Changes**
 ### ✅ **New Inputs**
 1. **`hospitalID` (5 bytes)** → Identifies the **hospital** that uploaded the EHR.
@@ -930,5 +932,109 @@ def main(
 ✅ **Zero-Knowledge Proofs allow Researchers to verify authenticity without seeing private data.**  
 
 ---
+
+
+# **Outputs**
+
+## **Smart Contract Functions and Deployment Costs**
+1. **Role Management Smart Contract Functions - II**  
+   ![Role Management Smart Contract Functions - II](https://github.com/user-attachments/assets/ebb14378-6c17-4000-ab5b-6cbaa86678d4)  
+
+2. **Role Management Smart Contract Functions - I**  
+   ![RoleManagement Smart Contract Functions - I](https://github.com/user-attachments/assets/a1ce533d-41b4-416e-8b51-60e1c921b107)  
+
+3. **Smart Contracts Files and Outputs**  
+   ![Smart Contracts Files and Output](https://github.com/user-attachments/assets/002efd3e-7964-4306-9ad1-98d5ae5667ea)  
+
+4. **StorageFactory.sol Deployment Costs**  
+   ![StorageFactory.sol Deployment Costs](https://github.com/user-attachments/assets/683ed895-0091-4d23-abcf-35c3651982c7)  
+
+5. **StorageFactory.sol Functions**  
+   ![StorageFactory.sol Functions](https://github.com/user-attachments/assets/57a3b5b5-7492-4537-bdc1-432bac379df8)  
+
+6. **EHRStorage.sol Deployment Cost**  
+   ![EHRStorage.sol Deployment Cost](https://github.com/user-attachments/assets/56310dd5-aa1f-44a3-b838-754c7fe93310)  
+
+7. **EHRStorage.sol Functions**  
+   ![EHRStorage.sol Functions](https://github.com/user-attachments/assets/fece0e85-93c9-4cb2-a318-d07132cac85f)  
+
+8. **EHRManagement.sol Functions**  
+   ![EHRManagement.sol Functions](https://github.com/user-attachments/assets/2b24546f-ea5a-4233-8033-4bcbfd2af492)  
+
+9. **Functions of EHRManagement.sol**  
+   ![Functions of EHRManagement.sol](https://github.com/user-attachments/assets/6d685e47-dcdc-481e-9d78-987a5bf90f52)  
+
+10. **Deploying EHRManagement.sol Smart Contract**  
+    ![Deploying EHRManagement.sol Smart Contract](https://github.com/user-attachments/assets/61d2a422-929f-4ebc-b8ba-f430809d907f)  
+
+11. **Copying Deployment of RoleManagement.sol Contract**  
+    ![Copying Deployment of RoleManagement.sol Contract](https://github.com/user-attachments/assets/f005d42f-4b46-4d4f-ba8d-d5f914d1383d)  
+
+12. **Cost of Deploying RoleManagement.sol**  
+    ![Cost of Deploying RoleManagement.sol](https://github.com/user-attachments/assets/26c22f38-b78f-4064-8bfe-fea9d1111a23)  
+
+---
+
+## **ZoKrates (zk-SNARK) Compilation and Execution Outputs**
+13. **Run Setup Successfully for `.zor` File**  
+    ![Run Setup Successfully for .zor File](https://github.com/user-attachments/assets/7a0f91ca-9f8f-4c02-85e2-c19d049aa2ff)  
+
+14. **Computed Successfully `.zor` File**  
+    ![Computed Successfully .zor File](https://github.com/user-attachments/assets/acd26af4-d7ba-454b-994c-54b328c2d11e)  
+
+15. **Compute Input of `.zor`**  
+    ![Compute Input of .zor](https://github.com/user-attachments/assets/b9efdce2-806f-47a9-813d-4cee9e917cc8)  
+
+16. **Compilation of `.zor` File**  
+    ![Compilation of .zor File](https://github.com/user-attachments/assets/8120cd2e-a2d7-4889-9126-aa729d4bdea0)  
+
+17. **ZoKrates Code for zk-SNARK**  
+    ![ZoKrates Code for zk-SNARK](https://github.com/user-attachments/assets/d0eb1cab-dd59-4f34-a1a6-cfa4e9880131)  
+
+18. **Exported Verifier Key for `.zor` File**  
+    ![Exported Verifier Key for .zor File](https://github.com/user-attachments/assets/233d68c2-3b6c-45e2-bab5-17c7e2178fb9)  
+
+19. **Generated Proof for `.zor` File**  
+    ![Generated Proof for .zor File](https://github.com/user-attachments/assets/9aafa2a4-8667-4765-ad56-6e5e61dcfe8c)  
+
+---
+
+## **zk-SNARK vs zk-STARK Analysis Graphs**
+20. **CPU Usage vs zk-SNARK Proof Generation**  
+    ![CPU Usage vs zk-SNARK Proof Generation](https://github.com/user-attachments/assets/81f66301-c4d6-40d2-be07-5026289d8979)  
+
+21. **zk-SNARK vs zk-STARK Network Latency**  
+    ![zk-SNARK vs zk-STARK Network Latency](https://github.com/user-attachments/assets/d8a4db74-bc4a-43b8-8683-8dda846345ce)  
+
+22. **zk-SNARK vs zk-STARK Multi-Party Computation**  
+    ![zk-SNARK vs zk-STARK Multi-Party Computation](https://github.com/user-attachments/assets/64042bf4-af91-49e1-88dc-9329ed67016f)  
+
+23. **Verification Time Comparison: zk-SNARK vs zk-STARK**  
+    ![Verification Time Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/c6c26e56-d4e5-4f7b-a943-232f2a0d0dbc)  
+
+24. **Transaction Cost Comparison**  
+    ![Transaction Cost Comparison](https://github.com/user-attachments/assets/ead49151-e961-4576-9ae6-391edfc6809f)  
+
+25. **Proof Size for 10,000 Transactions**  
+    ![Proof Size for 10,000 Transactions](https://github.com/user-attachments/assets/fe8a6464-2d24-4f8a-9683-aa6ed30d07a5)  
+
+26. **Proof Size for 1 Transaction**  
+    ![Proof Size for 1 Transaction](https://github.com/user-attachments/assets/59ad3cca-93b2-4b2a-aba1-db48f050db8e)  
+
+27. **Gas Cost Comparison in ETH**  
+    ![Gas Cost Comparison in ETH](https://github.com/user-attachments/assets/26c4a478-f229-4a3c-838c-90d1e51bc1c9)  
+
+28. **Execution Cost Comparison**  
+    ![Execution Cost Comparison](https://github.com/user-attachments/assets/aefa5cad-0fa9-43a2-9ce4-9e4bcdc7789e)  
+
+29. **EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK**  
+    ![EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/d0d072b2-a4db-41db-ba00-361ea2a33f3a)  
+
+---
+
+## **Tabular Output**
+30. **Tabular Output Representation**  
+    ![Tabular Output Representation](https://github.com/user-attachments/assets/ea88b433-cccb-4035-8efc-3eca788d34db)  
+
 
 
