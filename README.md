@@ -937,11 +937,11 @@ def main(
 # **Outputs**
 
 ## **Smart Contract Functions and Deployment Costs**
-1. **Role Management Smart Contract Functions - II**  
-   ![Role Management Smart Contract Functions - II](https://github.com/user-attachments/assets/ebb14378-6c17-4000-ab5b-6cbaa86678d4)  
+1. **Role Management Smart Contract Functions - I**  
+   ![RoleManagement Smart Contract Functions - I](https://github.com/user-attachments/assets/a1ce533d-41b4-416e-8b51-60e1c921b107)
 
-2. **Role Management Smart Contract Functions - I**  
-   ![RoleManagement Smart Contract Functions - I](https://github.com/user-attachments/assets/a1ce533d-41b4-416e-8b51-60e1c921b107)  
+2.  **Role Management Smart Contract Functions - II**  
+   ![Role Management Smart Contract Functions - II](https://github.com/user-attachments/assets/ebb14378-6c17-4000-ab5b-6cbaa86678d4)  
 
 3. **Smart Contracts Files and Outputs**  
    ![Smart Contracts Files and Output](https://github.com/user-attachments/assets/002efd3e-7964-4306-9ad1-98d5ae5667ea)  
