@@ -309,12 +309,6 @@ Here’s a simplified **visual representation** of how the system components int
 
 ---
 
-## **🚀 Next Steps**
-- **Should hospitals be able to revoke researcher access at any time?**  
-- **Would you like to add time-based access control for researchers?**  
-- **Do you want multi-party verification for sensitive EHRs?**  
-
-Let me know how you'd like to refine the design! 🚀🔥
 
 ### **📌 `RoleManagement.sol` for the New System**
 This **updated Role Management smart contract** is designed for the **new system**, which includes **Hospitals, Data Auditors, Researchers, and IPFS Nodes**.
@@ -540,13 +534,7 @@ contract RoleManagement {
 ✅ **IPFS Nodes handle off-chain encrypted storage.**  
 ✅ **Admin assigns, verifies, revokes roles as needed.**  
 
----
 
-## **🚀 Next Steps**
-- **Do you want any additional access control logic?**  
-- **Should hospitals be allowed to remove researchers?**  
-
-Let me know if any refinements are needed! 🚀🔥
 
 ### **📌 `EHRManagement.sol` for the New System**
 This smart contract **manages EHRs (Electronic Health Records)** in the **new system**, where:
@@ -673,12 +661,6 @@ contract EHRManagement {
 
 ---
 
-## **🚀 Next Steps**
-- **Should we allow Researchers to directly request EHR access instead of Hospitals granting it?**  
-- **Would you like to add a feature where a smart contract triggers ZKP verification on-chain?**  
-
-Let me know how you want to refine this! 🚀🔥
-
 ### **📌 `SimpleStorage.sol` for the New System**
 This contract will store **EHR metadata** instead of simple numbers.  
 It will allow **hospitals** to **store** and **retrieve** patient records with associated metadata.
@@ -754,11 +736,6 @@ contract EHRStorage {
 
 ---
 
-## **🚀 Next Steps**
-- **Do we need access control to limit who can verify EHRs?**  
-- **Would you like hospitals to be able to delete or update EHR records?**  
-
-Let me know if you want any changes! 🚀🔥
 
 ### **📌 `StorageFactory.sol` for the New System**
 This contract **manages multiple EHR storage contracts** and allows hospitals to **deploy** and **interact with** their own storage contracts.
@@ -830,11 +807,6 @@ contract StorageFactory {
 
 ---
 
-## **🚀 Next Steps**
-- **Should we allow Data Auditors or Researchers to query EHRs?**  
-- **Do you want an access control mechanism for retrieving EHRs?**  
-
-Let me know what refinements you need! 🚀🔥
 
 ### **📌 `AddFiveStorage.sol` for the New System**
 This contract extends `EHRStorage.sol` and **modifies the way EHRs are stored**. Instead of simply storing an EHR, this contract **automatically flags all new EHRs as unverified** and requires a **Data Auditor to verify it**.
@@ -879,11 +851,6 @@ contract AddVerificationStorage is EHRStorage {
 
 ---
 
-## **🚀 Next Steps**
-- **Should only specific roles (like Data Auditors) verify EHRs?**  
-- **Would you like hospitals to request verification instead of auto-flagging?**  
-
-Let me know if you need modifications! 🚀🔥
 
 ### **📌 `ehr.zok` for the New System**
 This Zero-Knowledge Proof (ZKP) circuit is designed for the **new system** where:
@@ -964,9 +931,4 @@ def main(
 
 ---
 
-## **🚀 Next Steps**
-- **Would you like to expand `ehrTypeID` to support more medical categories?**  
-- **Do we need an additional `timestamp` to verify when the EHR was created?**  
-
-Let me know what refinements you need! 🚀🔥
 
