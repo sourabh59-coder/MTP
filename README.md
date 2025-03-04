@@ -935,43 +935,6 @@ def main(
 
 
 # **📌 Outputs **
-## *zk-SNARK vs zk-STARK Analysis Graphs*
-1. *Transaction Cost Comparison*  
-    ![Transaction Cost Comparison](https://github.com/user-attachments/assets/ead49151-e961-4576-9ae6-391edfc6809f)  
-
-2. *Execution Cost Comparison*  
-    ![Execution Cost Comparison](https://github.com/user-attachments/assets/aefa5cad-0fa9-43a2-9ce4-9e4bcdc7789e)  
-
-3. *CPU Usage vs zk-SNARK Proof Generation*  
-    ![CPU Usage vs zk-SNARK Proof Generation](https://github.com/user-attachments/assets/81f66301-c4d6-40d2-be07-5026289d8979)  
-
-4.  *Gas Cost Comparison in ETH*  
-    ![Gas Cost Comparison in ETH](https://github.com/user-attachments/assets/26c4a478-f229-4a3c-838c-90d1e51bc1c9)  
-
-5. *Proof Size for 1 Transaction*  
-    ![Proof Size for 1 Transaction](https://github.com/user-attachments/assets/59ad3cca-93b2-4b2a-aba1-db48f050db8e)
-
-6. *Proof Size for 10,000 Transactions*  
-    ![Proof Size for 10,000 Transactions](https://github.com/user-attachments/assets/fe8a6464-2d24-4f8a-9683-aa6ed30d07a5)  
-
-7. *Verification Time Comparison: zk-SNARK vs zk-STARK*  
-    ![Verification Time Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/c6c26e56-d4e5-4f7b-a943-232f2a0d0dbc) 
-
-8.    *EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK*  
-    ![EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/d0d072b2-a4db-41db-ba00-361ea2a33f3a)  
-
-9. *zk-SNARK vs zk-STARK Network Latency*  
-    ![zk-SNARK vs zk-STARK Network Latency](https://github.com/user-attachments/assets/d8a4db74-bc4a-43b8-8683-8dda846345ce)  
-
-10. *zk-SNARK vs zk-STARK Multi-Party Computation*  
-    ![zk-SNARK vs zk-STARK Multi-Party Computation](https://github.com/user-attachments/assets/64042bf4-af91-49e1-88dc-9329ed67016f)  
-
-
-## *Tabular Output*
-1. *Tabular Output Representation*  
-    ![Tabular Output Representation](https://github.com/user-attachments/assets/ea88b433-cccb-4035-8efc-3eca788d34db)
-
-
 ## *ZoKrates (zk-SNARK) Compilation and Execution Outputs*
 1. *ZoKrates Code for zk-SNARK*  
     ![ZoKrates Code for zk-SNARK](https://github.com/user-attachments/assets/d0eb1cab-dd59-4f34-a1a6-cfa4e9880131)  
@@ -994,6 +957,7 @@ def main(
 7. **Exported Verifier Key for .zor File**  
     ![Exported Verifier Key for .zor File](https://github.com/user-attachments/assets/233d68c2-3b6c-45e2-bab5-17c7e2178fb9)  
 
+---
 
 ## *Smart Contract Functions and Deployment Costs*
 1. *Smart Contracts Files and Outputs*  
@@ -1031,4 +995,44 @@ def main(
 
 12. *StorageFactory.sol Deployment Costs*  
    ![StorageFactory.sol Deployment Costs](https://github.com/user-attachments/assets/683ed895-0091-4d23-abcf-35c3651982c7) 
+
+---
+
+## *zk-SNARK vs zk-STARK Analysis Graphs*
+1. *Transaction Cost Comparison*  
+    ![Transaction Cost Comparison](https://github.com/user-attachments/assets/ead49151-e961-4576-9ae6-391edfc6809f)  
+
+2. *Execution Cost Comparison*  
+    ![Execution Cost Comparison](https://github.com/user-attachments/assets/aefa5cad-0fa9-43a2-9ce4-9e4bcdc7789e)  
+
+3. *CPU Usage vs zk-SNARK Proof Generation*  
+    ![CPU Usage vs zk-SNARK Proof Generation](https://github.com/user-attachments/assets/81f66301-c4d6-40d2-be07-5026289d8979)  
+
+4.  *Gas Cost Comparison in ETH*  
+    ![Gas Cost Comparison in ETH](https://github.com/user-attachments/assets/26c4a478-f229-4a3c-838c-90d1e51bc1c9)  
+
+5. *Proof Size for 1 Transaction*  
+    ![Proof Size for 1 Transaction](https://github.com/user-attachments/assets/59ad3cca-93b2-4b2a-aba1-db48f050db8e)
+
+6. *Proof Size for 10,000 Transactions*  
+    ![Proof Size for 10,000 Transactions](https://github.com/user-attachments/assets/fe8a6464-2d24-4f8a-9683-aa6ed30d07a5)  
+
+7. *Verification Time Comparison: zk-SNARK vs zk-STARK*  
+    ![Verification Time Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/c6c26e56-d4e5-4f7b-a943-232f2a0d0dbc) 
+
+8.    *EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK*  
+    ![EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/d0d072b2-a4db-41db-ba00-361ea2a33f3a)  
+
+9. *zk-SNARK vs zk-STARK Network Latency*  
+    ![zk-SNARK vs zk-STARK Network Latency](https://github.com/user-attachments/assets/d8a4db74-bc4a-43b8-8683-8dda846345ce)  
+
+10. *zk-SNARK vs zk-STARK Multi-Party Computation*  
+    ![zk-SNARK vs zk-STARK Multi-Party Computation](https://github.com/user-attachments/assets/64042bf4-af91-49e1-88dc-9329ed67016f)  
+
+---
+
+## *Tabular Output*
+1. *Tabular Output Representation*  
+    ![Tabular Output Representation](https://github.com/user-attachments/assets/ea88b433-cccb-4035-8efc-3eca788d34db)
+---
 
