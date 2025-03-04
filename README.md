@@ -1011,22 +1011,19 @@ def main(
 4.  *Gas Cost Comparison in ETH*  
     ![Gas Cost Comparison in ETH](https://github.com/user-attachments/assets/26c4a478-f229-4a3c-838c-90d1e51bc1c9)  
 
-5. *Proof Size for 1 Transaction*  
-    ![Proof Size for 1 Transaction](https://github.com/user-attachments/assets/59ad3cca-93b2-4b2a-aba1-db48f050db8e)
+5. *Proof size log wrt transactions*
+![Proof size logs](https://github.com/user-attachments/assets/4378908d-f06a-40be-bafe-21e16499ba17)
 
-6. *Proof Size for 10,000 Transactions*  
-    ![Proof Size for 10,000 Transactions](https://github.com/user-attachments/assets/fe8a6464-2d24-4f8a-9683-aa6ed30d07a5)  
-
-7. *Verification Time Comparison: zk-SNARK vs zk-STARK*  
+6. *Verification Time Comparison: zk-SNARK vs zk-STARK*  
     ![Verification Time Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/c6c26e56-d4e5-4f7b-a943-232f2a0d0dbc) 
 
-8.    *EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK*  
+7.    *EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK*  
     ![EVM Verification Gas Cost Comparison: zk-SNARK vs zk-STARK](https://github.com/user-attachments/assets/d0d072b2-a4db-41db-ba00-361ea2a33f3a)  
 
-9. *zk-SNARK vs zk-STARK Network Latency*  
+8. *zk-SNARK vs zk-STARK Network Latency*  
     ![zk-SNARK vs zk-STARK Network Latency](https://github.com/user-attachments/assets/d8a4db74-bc4a-43b8-8683-8dda846345ce)  
 
-10. *zk-SNARK vs zk-STARK Multi-Party Computation*  
+9. *zk-SNARK vs zk-STARK Multi-Party Computation*  
     ![zk-SNARK vs zk-STARK Multi-Party Computation](https://github.com/user-attachments/assets/64042bf4-af91-49e1-88dc-9329ed67016f)  
 
 ---
