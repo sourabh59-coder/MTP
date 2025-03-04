@@ -1029,6 +1029,6 @@ def main(
 11. *StorageFactory.sol Functions*  
    ![StorageFactory.sol Functions](https://github.com/user-attachments/assets/57a3b5b5-7492-4537-bdc1-432bac379df8)  
 
-12. *StorageFactory.sol Functions*  
-   ![StorageFactory.sol Functions](https://github.com/user-attachments/assets/57a3b5b5-7492-4537-bdc1-432bac379df8)  
+12. *StorageFactory.sol Deployment Costs*  
+   ![StorageFactory.sol Deployment Costs](https://github.com/user-attachments/assets/683ed895-0091-4d23-abcf-35c3651982c7) 
 
